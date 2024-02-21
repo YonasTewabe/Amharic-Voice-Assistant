@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="የሚገኙ ትዕዛዞች"
+        android:textColor="#1E21E9" />
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#E3F3F3"
+        android:gravity="left"
+        android:lines="4"
+        android:maxLines="6"
+        android:text="ለመደወል:----------ወደ ስም ደ... ለ ስም ደ... \nለመልእክት:-------- ወደ ስም\nለማንቂያ:---------- ሰአት ደቂቃ\nክሮም ለመክፈት:--- ክሮም ክፈት ፣ chrome ክፈት ፣ ክሮም ፣ chrome\nካሜራ ለመክፈት:--- camera ክፈት ፣ ካሜራ ክፈት ፣ ካሜራ ፣ camera\n"
+        android:textColor="#E91E63"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ማዳመጥ ጀምር" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:gravity="center_horizontal"
+        android:text="ሰላም!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>
